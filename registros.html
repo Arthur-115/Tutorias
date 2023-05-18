@@ -33,15 +33,15 @@
     <div class="modal-container" id="modal-container">
         <div class="modal modal-close">
             <p class="close">X</p>
-                <form class="form"  action="guardar2.php" method="POST">
+                <form class="form"  action="guardar.php" method="POST">
                   <p>ALUMNOS TUTORES</p>
                   <br>
                   <label for="nombre">Nombre del alumno</label>
                   <br>
                   <input type="text" name="nombre" placeholder="Nombre" required>
                   <p>Numero de control</p>
-                  <label for="numero de control"></label>
-                  <input type="numero" name="numeroC" placeholder="numero de control" required>
+                  <label for="numeroC"></label>
+                  <input type="numero" name="numeroControl" placeholder="numero de control" required>
                   <p>Semestre</p>
                   <label for="semestre"></label>
                   <select id="dropdown" name="semestre" class="form-control" required="">
@@ -51,6 +51,7 @@
                     <option value="learner">Quinto</option>
                   </select><br>
                   <p>Especialidad</p>
+                  <label for="especialidad></label>
                   <select id="dropdown" name="especialidad" class="form-control" required="">
                     <option disabled="" selected="" value="">Seleccione</option>
                     <option value="student">Programacion</option>
